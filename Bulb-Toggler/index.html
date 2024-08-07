@@ -15,14 +15,21 @@
     <div class="bulb-container">
         <img src="./../Bulb-Toggler/light-bulb-off.png" class="bulb-img" id="img-bulb">
         <div class="btn-container">
-            <button class="bulb-btn" onclick="bulbOn()">
-                ON
-            </button>
-            <button class="bulb-btn" onclick="bulbOff()">
-                OFF
+            <button class="bulb-btn" onclick="toggleBulb()">
+                Toggle
             </button>
         </div>
     </div>
+
+    <script>
+
+        function toggleBulb() {
+            const bulbElement = document.getElementById("img-bulb")
+
+            bulbElement.src.includes("light-bulb-on.png") ?
+                bulbElement.src = "./../Bulb-Toggler/light-bulb-off.png" : bulbElement.src = "./../Bulb-Toggler/light-bulb-on.png"
+        }
+    </script>
 </body>
 
 </html>
