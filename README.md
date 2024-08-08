@@ -25,8 +25,7 @@ A simple web application that allows users to toggle a bulb image and switch bet
 To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
-   ```bash
-  [ git clone https://github.com/prathamagre/bulb-toggler-theme-switcher.git](https://github.com/prathamagre/Bulb-Toggler-Theme-Switcher.git)
+(https://github.com/prathamagre/Bulb-Toggler-Theme-Switcher.git)
   
 ## Usage
 - Click the "Toggle Bulb" button to switch the bulb image between the "on" and "off" states.
