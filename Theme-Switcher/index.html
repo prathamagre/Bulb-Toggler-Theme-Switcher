@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theme Switcher</title>
     <link rel="stylesheet" href="./../Theme-Switcher/style.css">
 </head>
-<body>
-    <button>
-        <img src="">
-    </button>
+
+<body class="bg-light" id="main-body">
+    <img src>
+    <div class="theme-switch-btn">
+        <img src="./../Theme-Switcher/theme-switch.png" class="btn-img" onclick="enableDark()">
+    </div>
     <h1>
         <u>THEME SWITCHER</u>
     </h1>
+    <div class="txt-container">
+    <p class="quote-txt" id="text">
+        Light Mode, also known as "Light Theme" or "Day Mode," refers to a user interface design scheme characterized by predominantly bright backgrounds and dark text.
+    </p>
+    </div>
+
+    <script>
+        function enableDark() {
+            const mainBody = document.getElementById("main-body")
+            const text = document.getElementById("text")
+
+            if (mainBody.classList.contains("bg-light")) {
+                mainBody.classList.add("bg-dark");
+                mainBody.classList.remove("bg-light");
+                text.innerText = `Dark mode is a feature that changes the color scheme of an application or device interface from the traditional light background to a darker one.`
+
+            }
+            else {
+                mainBody.classList.add("bg-light");
+                mainBody.classList.remove("bg-dark");
+                text.innerText = `Light Mode, also known as "Light Theme" or "Day Mode," refers to a user interface design scheme characterized by predominantly bright backgrounds and dark text.`
+            }
+
+        }
+    </script>
     
 </body>
+
 </html>
