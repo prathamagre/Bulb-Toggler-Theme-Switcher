@@ -9,7 +9,7 @@ A simple web application that allows users to toggle a bulb image and switch bet
 
 ## Screenshots
 
-![Light Bulb Off](./../screenshot/bulb-off.png)
+![Light Bulb Off](/screenshot/bulb-off.png)
 ![Light Bulb On](./../screenshot/bulb-on.png)
 ![Light Theme Background](./../screenshot/light-theme.png)
 ![Dark Theme Background](./../screenshot/dark-theme.png)
