@@ -26,7 +26,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-  [ git clone https://github.com/your-username/bulb-toggler-theme-switcher.git](https://github.com/prathamagre/Bulb-Toggler-Theme-Switcher.git)
+  [ git clone https://github.com/prathamagre/bulb-toggler-theme-switcher.git](https://github.com/prathamagre/Bulb-Toggler-Theme-Switcher.git)
   
 ## Usage
 - Click the "Toggle Bulb" button to switch the bulb image between the "on" and "off" states.
